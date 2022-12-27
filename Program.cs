@@ -15,6 +15,18 @@ int number1 = numbers/10;
 int number2 = number1%10;
 Console.WriteLine($"{numbers} -> {number2}");*/
 
+/*Console.WriteLine("Строково:");
+Console.Write("Введите трехзначное число: ");
+int number = int.Parse(Console.ReadLine()!);
+string Num = Convert.ToString(number);
+if (Num.Length == 3)
+{
+    Console.WriteLine($"Вторая цифра в числе {number} -> {Num[1]}");
+}
+else{
+    Console.WriteLine($"Введено не верное число");
+}*/
+
 
 /*Задача 2: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет. Берем числа до 100000
 
